@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f8fafc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Wrapper for centering content */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card Container */
+.container.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 95%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Labels and form controls */
+label {
+  color: #0f172a;
+}
+
+.form-select, .form-control {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  transition: all 0.2s;
+}
+
+.form-select:focus, .form-control:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  border: none;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #1d4ed8, #2563eb);
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  color: #cbd5e1;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container.card {
+    padding: 25px 20px;
+  }
+}
