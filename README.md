@@ -9,10 +9,10 @@ The model is saved using **pickle**, and a simple **Flask web app** is used to d
 ## 🖼️ Website Preview
 
 ### **Before Prediction**
-![Website Before](images/before.png)
+![Website Before](https://github.com/anjalivarun13/House-Price-Prediction---Machine-Learning-/blob/main/Image/Before%20house%20price%20prediction.png)
 
 ### **After Prediction**
-![Website After](images/after.png)
+![Website After](https://github.com/anjalivarun13/House-Price-Prediction---Machine-Learning-/blob/main/Image/After%20house%20price%20Prediction.png)
 
 ---
 
